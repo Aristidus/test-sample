@@ -4,4 +4,4 @@
 2. Install main requirements for testing
     `make install-test-requirements`
 3. Perform testing)
-    `prepare-and-test`
+    `make prepare-and-test`
