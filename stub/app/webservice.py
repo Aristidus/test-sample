@@ -13,6 +13,10 @@ db = Database()
 
 # TODO add response model to 404 error code response
 
+@app.post("")
+async def test_webhook(message):
+    print(message)
+
 @app.get("/users",
          response_description="Users",
          description="Get all Users from database",
